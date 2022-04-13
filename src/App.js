@@ -13,7 +13,7 @@ function App() {
   return (
     <GithubProvider>
       <AlertProvider>
-        <Router >
+        <Router basename="/github-profile-finder">
           <div className="flex flex-col justify-between h-screen">
             <Navbar />
 
